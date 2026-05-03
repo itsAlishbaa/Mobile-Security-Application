@@ -3,3 +3,8 @@
     align-items: center;
     gap: 15px;
 }
+
+.head-div {
+    width: 50px;
+    height: auto;
+}
