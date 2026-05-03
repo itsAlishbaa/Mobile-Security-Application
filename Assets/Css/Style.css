@@ -24,4 +24,5 @@
 
 .navbar-links {
     display: flex;
+    list-style: none;
 }
