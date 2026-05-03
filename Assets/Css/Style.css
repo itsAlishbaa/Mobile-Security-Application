@@ -29,3 +29,10 @@
     margin: 0;
     padding: 0;
 }
+
+.nav-links a {
+    text-decoration: none;
+    color: #000033;
+    font-weight: bold;
+    font-family: sans-serif;
+}
