@@ -139,10 +139,10 @@
 
 .testimonial-section {
     background-color: #ffb13b;
-    /* Figma wala yellow background */
+
     padding: 60px 0;
     overflow-x: hidden;
-    /* Bahar nikalta hua content screen width barhaye na */
+
 }
 
 .page-2-text {
@@ -152,20 +152,18 @@
 
 .page-2-text h1 {
     font-size: 38px;
-    /* Figma ke mutabiq adjust karein */
     font-weight: 800;
     color: #02033b;
     max-width: 500px;
 }
 
-/* Horizontal Scroll Logic */
+
 .testimonial-wrapper {
     display: flex;
     flex-wrap: nowrap;
-    /* Cards ko line mein rakhne ke liye */
     overflow-x: auto;
     padding-left: 10%;
-    /* Starts from the same line as heading */
+
     padding-right: 10%;
     padding-bottom: 30px;
     gap: 55px;
@@ -189,11 +187,11 @@
 
 .testimonial-card {
     background-color: white !important;
-    padding: 35px;
+    padding: 25px;
     border-radius: 30px;
     min-width: 320px;
-
-    max-width: 320px;
+    height: 900;
+    max-width: 420px;
     flex: 0 0 auto;
     display: flex;
     flex-direction: column;
