@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,7 @@
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 30px;
     margin: 0;
 }
 
@@ -35,13 +36,14 @@
     text-decoration: none;
     color: #000033;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 23px;
 }
 
 .sign-in-btn {
     background-color: #443ee3;
     color: white;
-    padding: 10px 25px;
+    font-size: 20px;
+    padding: 15px 30px;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
