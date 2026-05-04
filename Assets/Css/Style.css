@@ -80,3 +80,14 @@
     color: #333;
     line-height: 1.6;
 }
+
+.img-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-section img {
+    max-width: 100%;
+    height: auto;
+}
