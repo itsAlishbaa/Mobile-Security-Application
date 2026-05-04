@@ -60,14 +60,14 @@
     align-items: center;
     background-color: #f8fbff;
     min-height: 80vh;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 0;
     overflow: hidden;
 }
 
 .txt-class {
-    flex: 1;
-    max-width: 550px;
+    flex: 4;
+    max-width: 700px;
     padding-right: 50px;
     font-size: 30px;
 
