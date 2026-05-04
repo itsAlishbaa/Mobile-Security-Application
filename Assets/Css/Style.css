@@ -153,3 +153,46 @@
     line-height: 1.2;
     text-align: left;
 }
+
+/* Testimonial Section Styling */
+.testimonial-section {
+    background-color: #ffc247;
+    /* Yellow background from your image */
+    overflow: hidden;
+}
+
+/* Horizontal Scroll Logic */
+.hide-scrollbar {
+    overflow-x: auto !important;
+    /* Force horizontal scroll */
+    scrollbar-width: none;
+    /* Firefox ke liye scrollbar hide */
+    -ms-overflow-style: none;
+    /* IE ke liye */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari ke liye scrollbar hide */
+}
+
+/* Custom Card Design matching your Image 4 */
+.custom-card {
+    border-radius: 30px !important;
+    /* Figma rounded corners */
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars {
+    color: #ffb13b;
+    font-size: 1.2rem;
+}
+
+/* Row padding taake cards chipke nahi */
+#testimonial-row {
+    padding-left: 5%;
+    padding-right: 5%;
+}
