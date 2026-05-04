@@ -58,38 +58,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: #f8fbff;
     min-height: 80vh;
+    /* Left side par space rakhein ge, lekin Right side 0 kar dein ge */
+    padding-left: 8%;
+    padding-right: 0;
+    overflow: hidden;
+    /* Taake image screen se bahar na nikalay */
 }
 
 .txt-class {
-    padding: 50px 10%;
     flex: 1;
-    max-width: 500px;
-}
-
-.txt-class h1 {
-
-    font-size: 48px;
-    color: #000033;
-    margin-bottom: 20px;
-    line-height: 1.2;
-}
-
-.txt-class p {
-
-    font-size: 18px;
-    color: #333;
-    line-height: 1.6;
+    max-width: 550px;
+    /* Text ko thora center mein feel karwane ke liye padding */
+    padding-right: 40px;
 }
 
 .img-section {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    /* Image ko bilkul right par dhakelnay ke liye */
+    height: 100%;
 }
 
 .img-section img {
-    padding: 0px 0%;
+    /* Image ki width barha di taake wo edge tak jaye */
+    width: 100%;
+    max-width: 800px;
+    /* Aap isay apni marzi se adjust kar sakti hain */
+    height: auto;
+    display: block;
+    /* Ye line ensure kare gi ke koi faltu margin na ho */
+    margin-right: 0;
 }
