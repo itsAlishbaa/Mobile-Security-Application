@@ -5,39 +5,29 @@
     font-family: sans-serif;
 }
 
-body {
-    background-color: red;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* Pushes Logo to left, nav-right to right */
     align-items: center;
     padding: 15px 50px;
     background-color: #f8fbff;
 }
 
 .logo img {
-    height: 40px;
+    height: 60px;
 }
 
-/* This container holds both the links and the blue button */
 .nav-right {
     display: flex;
     align-items: center;
     gap: 40px;
-    /* Space between the list and the button */
 }
 
-/* This fixes the vertical list / dots issue */
+
 .nav-links {
     display: flex;
-    /* Makes links horizontal */
     list-style: none;
-    /* REMOVES THE DOTS */
     gap: 25px;
-    /* Space between individual links */
     margin: 0;
 }
 
@@ -48,13 +38,11 @@ body {
     font-size: 15px;
 }
 
-/* The Blue "Sign in" Button */
 .sign-in-btn {
     background-color: #443ee3;
     color: white;
     padding: 10px 25px;
     border-radius: 25px;
-    /* Makes it round */
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
