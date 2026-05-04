@@ -226,4 +226,5 @@
 .footer-page2 {
     display: flex;
     padding-left: 10%;
+    align-items: center;
 }
