@@ -87,7 +87,7 @@
 .img-section img {
 
     width: 100%;
-    max-width: 100%;
+    max-width: 1000px;
     height: auto;
     display: block;
     margin-right: 0;
@@ -135,4 +135,17 @@
     align-items: center;
     padding-top: 20%;
     gap: 10%;
+}
+
+.page-2 {
+    display: flex;
+    padding: 100px 10%;
+    background-color: orange;
+    text-align: center;
+}
+
+.page-2 h1 {
+    font-size: 36px;
+    color: #000033;
+    font-weight: bold;
 }
