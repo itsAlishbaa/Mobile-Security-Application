@@ -67,3 +67,10 @@
     flex: 1;
     max-width: 500px;
 }
+
+.txt-class h1 {
+    font-size: 48px;
+    color: #000033;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
