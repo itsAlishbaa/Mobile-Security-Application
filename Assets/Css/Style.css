@@ -53,3 +53,9 @@
 .sign-in-btn:hover {
     background-color: #332dbb;
 }
+
+.txt-class {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
