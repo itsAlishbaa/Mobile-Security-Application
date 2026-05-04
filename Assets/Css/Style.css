@@ -68,8 +68,9 @@
 .txt-class {
     flex: 1;
     max-width: 550px;
-    padding-right: 60px;
-    font-size: 35px;
+    padding-right: 50px;
+    font-size: 30px;
+
 }
 
 .img-section {
