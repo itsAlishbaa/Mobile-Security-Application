@@ -79,7 +79,7 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    height: 100%;
+    height: auto;
     margin-top: 50px;
 
 }
@@ -87,7 +87,7 @@
 .img-section img {
 
     width: 100%;
-    max-width: 1000px;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-right: 0;
@@ -121,9 +121,16 @@
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    border: 2px solid black;
 
 }
 
 .button-certo:hover {
     border-color: black;
+
+}
+
+.hero-btns {
+    padding-top: 20%;
+    gap: 10%;
 }
