@@ -78,7 +78,7 @@
     display: flex;
     justify-content: flex-end;
     height: 100%;
-    border: #332dbb;
+    border-top: 10px solid #332dbb;
 }
 
 .img-section img {
