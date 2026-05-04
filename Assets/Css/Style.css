@@ -59,3 +59,8 @@
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.txt-class img {
+    display: flex;
+    align-items: flex-end;
+}
