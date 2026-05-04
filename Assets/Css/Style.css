@@ -1,38 +1,65 @@
-.head-div {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.head-div {
-    width: 50px;
-    height: auto;
+body {
+    background-color: red;
 }
 
 .navbar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    /* Pushes Logo to left, nav-right to right */
+    align-items: center;
+    padding: 15px 50px;
     background-color: #f8fbff;
 }
 
 .logo img {
     height: 40px;
-    width: auto;
 }
 
-.navbar-links {
+/* This container holds both the links and the blue button */
+.nav-right {
     display: flex;
-    list-style: none;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    gap: 40px;
+    /* Space between the list and the button */
 }
 
-.navbar-links a {
+/* This fixes the vertical list / dots issue */
+.nav-links {
+    display: flex;
+    /* Makes links horizontal */
+    list-style: none;
+    /* REMOVES THE DOTS */
+    gap: 25px;
+    /* Space between individual links */
+    margin: 0;
+}
+
+.nav-links a {
     text-decoration: none;
     color: #000033;
     font-weight: bold;
-    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/* The Blue "Sign in" Button */
+.sign-in-btn {
+    background-color: #443ee3;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    /* Makes it round */
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.sign-in-btn:hover {
+    background-color: #332dbb;
 }
