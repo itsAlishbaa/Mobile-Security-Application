@@ -62,3 +62,8 @@
     background-color: #f8fbff;
     min-height: 80vh;
 }
+
+.txt-class {
+    flex: 1;
+    max-width: 500px;
+}
