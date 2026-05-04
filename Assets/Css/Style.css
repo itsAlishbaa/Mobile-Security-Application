@@ -228,3 +228,15 @@
     padding-left: 10%;
     align-items: center;
 }
+
+.page-3-text {
+    padding-left: 7%;
+    margin-bottom: 40px;
+}
+
+.page-3-text h1 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #02033b;
+    max-width: 700px;
+}
