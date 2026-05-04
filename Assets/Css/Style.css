@@ -54,7 +54,7 @@
     background-color: #332dbb;
 }
 
-.txt-class {
+.txt-class h1 {
     display: flex;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
