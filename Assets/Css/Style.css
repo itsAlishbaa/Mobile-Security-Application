@@ -54,13 +54,7 @@
     background-color: #332dbb;
 }
 
-.txt-class h1 {
+.hero-section {
     display: flex;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.txt-class img {
-    display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
 }
