@@ -166,7 +166,8 @@
     padding-top: 5%;
     padding-right: 10%;
     padding-bottom: 30px;
-    gap: 55px;
+    gap: 23px;
+    /* border-radius: 60%; */
 
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -186,7 +187,7 @@
 
 
 .testimonial-card {
-    background-color: white !important;
+    background-color: white;
     /* padding: 25px; */
     padding: 50px 40px;
     border-radius: 30px;
@@ -197,8 +198,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border: none;
+    border-radius: 15%;
 }
 
 .stars {
